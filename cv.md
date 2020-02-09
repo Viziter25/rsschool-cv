@@ -4,3 +4,5 @@
 4. Skills: Git, HTML, CSS, JS.
 5. **Code examples:** all my projects you can see on [GitHub](https://github.com/Viziter25).
 6. I am learning how to code in different online platforms such as *Codeacademy*, *Codewars*, *youtube* and so on. 
+7. **Education:** I graduated from BNTU and passed online courses on Codeacademy(HTML, CSS).
+8. English skills: my english level is *A2* and I'm going to the english courses now. 
