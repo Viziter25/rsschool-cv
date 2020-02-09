@@ -128,3 +128,40 @@ p {
 .span__text {
     font-style: italic;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: black;
+}
+
+.footer-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: color .2s linear;
+
+
+    position: relative;
+}
+
+.footer-link:hover {
+    color: rgb(29, 224, 11);
+    text-decoration: underline;
+}
+
+.footer-link::after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    right: -85px;
+}
+
+.footer-link::after:last-child {
+    width: 0;
+}
