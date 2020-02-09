@@ -1,0 +1,167 @@
+.body {
+    margin: 0;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+.img {
+    width: 500px;
+    height: 350px;
+    margin: 50px 50px;
+}
+
+.info_title {
+    margin: 50px 50px;
+    font-size: 35px;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.info_subtitle {
+    margin: 50px 50px;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.info_list {
+    margin: 50px 50px;
+}
+
+.info_list-item {
+    margin: 45px 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.info_list-link {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.info_list-link:hover {
+    color: rgb(29, 224, 11);
+    text-decoration: underline;
+}
+
+.main {
+    padding: 30px 30px;
+    background-color: rgb(192, 192, 192);
+}
+
+.main__item {
+    padding: 20px;
+    border-bottom: solid 2px black;
+}
+
+.main__item:last-child {
+    border-bottom: none;
+}
+
+.main__title {
+    color: rgb(75, 75, 75);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.main__text {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.main__list {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.main__list-item {
+    margin-bottom: 10px;
+}
+
+.main__link {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.main__link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.span__text {
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: black;
+}
+
+.footer-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: color .2s linear;
+
+
+    position: relative;
+}
+
+.footer-link:hover {
+    color: rgb(29, 224, 11);
+    text-decoration: underline;
+}
+
+.footer-link::after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    right: -85px;
+}
+
+.footer-link::after:last-child {
+    width: 0;
+}
